@@ -7,7 +7,7 @@ function MessageList() {
   useEffect(() => {
     async function fetchMessages() {
       try {
-        const response = await axios.get("https://mern-message-rf1d.vercel.app/messages");
+        const response = await axios.get("https://mern-message-qrpv.vercel.app/messages");
         setMessages(response.data);
       } catch (error) {
         console.error("Error fetching messages", error);

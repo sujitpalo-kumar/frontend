@@ -14,7 +14,7 @@ function MessageForm() {
     }
 
     try {
-      await axios.post("https://mern-message-rf1d.vercel.app/messages", { content });
+      await axios.post("https://mern-message-qrpv.vercel.app/messages", { content });
       setContent("");
       setSubmitted(true);
     } catch (error) {
